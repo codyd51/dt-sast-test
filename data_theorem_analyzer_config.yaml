@@ -1,5 +1,3 @@
 build_commands:
-  - ls
-  - pwd
-  - ./gradlew assembleDebug --stacktrace
+  - ./gradlew assemble --stacktrace
 
