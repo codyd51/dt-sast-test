@@ -5,6 +5,7 @@ package com.datatheorem.sast;
 
 public class App {
     public String getGreeting() {
+		System.out.println("This token is sensitive and should not be committed to version control: AKIAIOSFODNN7EXAMPLE");
         return "Hello World!";
     }
 
