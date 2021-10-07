@@ -1,3 +1,4 @@
 build_commands:
-  - ./gradlew assemble --stacktrace
+  - ./gradlew clean
+  - ./gradlew --no-daemon -S testClasses
 
